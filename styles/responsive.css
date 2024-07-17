@@ -67,7 +67,9 @@
     .primary-btn-two{
         padding: 16px 23px;
     }
-    .habits-content{
+    .habits-content,
+    .advertise-container
+    {
         flex-direction: column;
     }
     .image{
@@ -77,12 +79,27 @@
         max-width: 200px;
         margin: 20px;
     }
-    .habits-title{
+    .habits-title , .ad-title{
         font-size: 32px;
+    }
+    .ad-title{
+        width: 100%;
     }
     .habits-description{
         text-align: left;
         font-size: 14px;
         letter-spacing: 0.3px;
+    }
+    .advertise-container{
+        width: 90%;
+        padding: 20px;
+    }
+    .advertise-content img{
+        height: auto;
+    }
+    .advertise-text > button{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
