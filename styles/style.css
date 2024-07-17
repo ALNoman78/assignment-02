@@ -205,3 +205,78 @@ nav ul li a{
 
 /* banner section style end */
 
+/* habits section styles start  */
+
+.habits-container{
+    width: 76%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.habits-text{
+    max-width: 671px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+
+.habits-description{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.habits-title{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+}
+.items-title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.items-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.habit-items{
+    max-width: 280px;
+    margin: 0 auto;
+}
+.habits-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.item{
+    max-width: 240px;
+    margin-top: 30px;
+}
+/* habits section styles end  */
+
+/* main */
+main{
+    background: #000;
+}
+/* main style end */

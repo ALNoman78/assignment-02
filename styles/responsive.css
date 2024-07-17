@@ -67,5 +67,22 @@
     .primary-btn-two{
         padding: 16px 23px;
     }
-    
+    .habits-content{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        max-width: 200px;
+        margin: 20px;
+    }
+    .habits-title{
+        font-size: 32px;
+    }
+    .habits-description{
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+    }
 }
