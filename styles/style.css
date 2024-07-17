@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* header section style start */
+.head{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%),
+    linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%),
+    linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%),
+    linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    width: 100%;
+    height: 763px;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 10px;
+
+}
+.logo{
+    color: #E6533C;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+#home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px;
+}
+.menu-bar{
+    display: none;
+}
+.menu-bar i{
+    font-size: 45px;
+    color: #fff;
+}
+/* header section style end */
+
+
+/* banner section style start */
+
+.banner-container{
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.banner-image {
+    margin-top: 34px;
+    position: relative;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-content{
+    max-width: 600px;
+    height: 440px;
+    margin-top: 100px;
+}
+.banner-shap{
+    font-family: "Dancing Script", cursive;
+    font-size: 78px;
+    font-weight: 900;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.primary-btn{
+    border: 0;
+    outline: 0;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 45px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.text-overlay{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translate(-50% , -50%);
+    width: 195px;
+    height: 100px;
+    padding: 17px 53px 41px 24px;
+}
+
+.text-overlay h3{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.text-overlay-type-two h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900;
+    /* line-height: 40px; */
+    letter-spacing: 1px;
+    text-align: right;
+}
+.text-overlay  p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.text-overlay-type-two p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.text-overlay-type-two{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 81%;
+    left: -5%;
+    transform: translate(-50% , -50%);
+    width: 195px;
+    height: 100px;
+    padding: 24px;
+    display: flex;
+}
+
+.primary-btn-two {
+    border: 1px solid rgb(255, 255, 255);
+    outline: 0;
+    border-radius: 42px;
+    background: transparent;
+    padding: 16px 45px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+/* banner section style end */
+
