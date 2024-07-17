@@ -47,15 +47,25 @@
         position: absolute;
         top: 13%;
         left: 79%;
-        /* transform: translate(-50% , -50%); */
+        max-width: 140px;
+        padding: 8px;
     }
     .text-overlay-type-two{
         position: absolute;
         top: 49%;
         left: 21%;
-        /* transform: translate(-50% , -50%); */
+        max-width: 140px;
+        padding: 8px;
+    }
+    .text-overlay-type-two h3 , .text-overlay h3{
+        font-size: 28px;
+    }
+    .text-overlay-type-two p , .text-overlay p{
+        font-size: 10px;
+
     }
     .primary-btn-two{
         padding: 16px 23px;
     }
+    
 }
