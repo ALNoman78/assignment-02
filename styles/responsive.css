@@ -119,7 +119,7 @@
     .team-images{
         grid-template-columns: repeat(1 , 1fr);
         gap: 20px;
-        justify-items: center;
+        /* justify-items: center; */
     }
     .team-images img{
         width: 100%;
