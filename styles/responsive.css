@@ -3,6 +3,7 @@
         flex-direction: column;
         /* margin: 20px; */
         gap: 40px;
+        width: 90%;
     }
     .banner-title{
         font-size: 36px;
@@ -12,12 +13,16 @@
     }
     .banner-content{
         height: auto;
+        margin-top: 32px;
     }
     .banner-shap{
         font-size: 36px;
     }
     .head{
         height: auto;
+    }
+    .navbar{
+        width: 100%;
     }
     nav ul{
         display: none;
@@ -40,7 +45,7 @@
         gap: 20px;
     }
     .primary-btn{
-        font-size: 17px;
+        font-size: 0.8rem;
         padding: 16px 23px;
     }
     .text-overlay{
@@ -62,9 +67,14 @@
     }
     .text-overlay-type-two p , .text-overlay p{
         font-size: 10px;
-
+    }
+    .team-image-overlay-text{
+        transform: translate(-50% , -50%);
+        left: 30%;
+        top: 85%;
     }
     .primary-btn-two{
+        font-size: 0.8rem;
         padding: 16px 23px;
     }
     .habits-content,
@@ -98,7 +108,7 @@
         height: auto;
     }
     .advertise-text > button{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -119,15 +129,17 @@
     .team-images{
         grid-template-columns: repeat(1 , 1fr);
         gap: 20px;
-        /* justify-items: center; */
     }
-    .team-images img{
-        width: 100%;
+
+    .team-items{
+        max-width: 280px;
     }
     .team{
         width: 94%;
-        margin: 7px;
+        height: 100%;
+        margin: 0 auto;
         margin-top: 60px;
+        padding-bottom: 18px;
     }
     .team-title{
         font-size: 30px;
@@ -137,5 +149,28 @@
     }
     .hide{
         display: none;
+    }
+    .footer-container , .footer-main-section{
+        flex-direction: column;
+    }
+    .footer-head{
+        width: 100%;
+        height: auto;
+    }
+    .footer-container{
+        gap: 30px;
+        width: 90%;
+    }
+    .footer-head-title{
+        font-size: 4.5rem;
+    }
+    /* .services {
+        display: inline;
+    } */
+    .footer-main-section{
+        max-width: 100%;
+    }
+    .gender-btn{
+        width: 62%;
     }
 }
