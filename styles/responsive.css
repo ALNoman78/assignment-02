@@ -82,6 +82,9 @@
     {
         flex-direction: column;
     }
+    .habits-container{
+        padding-top: 40px;
+    }
     .image{
         width: 100%;
     }
@@ -173,4 +176,42 @@
     .gender-btn{
         width: 62%;
     }
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .planner-header{
+        font-size: 30px;
+    }
+    .card-description{
+        font-size: 15px;
+        padding: 0;
+    }
+    .planner-btn{
+        margin: 14px 0;
+    }
+    .ul-li-text {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    ul{
+        padding: 10px 20px;
+    }
+    .container-header{
+        font-size: 35px;
+    }
+    .container-title{
+        font-size: 20px;
+    }
+    .planner-title {
+        margin-bottom: 12px;
+    }
 }
+
