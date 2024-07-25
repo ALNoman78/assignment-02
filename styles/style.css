@@ -623,7 +623,7 @@ footer{
 }
 .card{
     max-width: 410px;
-    height: 480px;
+    /* height: 480px; */
     border-radius: 15px;
     background: rgb(34, 34, 34);
     /* box-shadow:  20px 20px 40px #afafaf,
@@ -650,10 +650,13 @@ footer{
     border: 0;
     outline: 0;
     border-radius: 15px;
-    font-size: 21px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
     background-color: rgb(230, 83, 60);
     color: #fff;
+}
+.planner-span{
+    font-size: 2rem;
 }
 /* planner section styles end */
