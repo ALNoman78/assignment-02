@@ -542,6 +542,7 @@ footer{
     font-weight: 400;
     line-height: 120%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .footer-main-section h3{
@@ -657,6 +658,6 @@ footer{
     color: #fff;
 }
 .planner-span{
-    font-size: 2rem;
+    font-size: 24px;
 }
 /* planner section styles end */
