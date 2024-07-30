@@ -111,6 +111,7 @@
     }
     .advertise-content img{
         height: auto;
+        object-fit: cover;
     }
     .advertise-text > button{
         width: 100%;
