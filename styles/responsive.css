@@ -221,5 +221,8 @@
         height: 30px;
         margin: 10px 3px;
     }
+    .menu-bar i{
+        font-size: 34px;
+    }
 }
 
